@@ -55,6 +55,12 @@
   background-color: #fff;
 }
 
+.qbtn{
+  color: #0056b3;
+  font-weight: bold;
+  background-color: transparent;
+}
+
 .total {
   display: flex;
   justify-content: space-between; /* Space between elements */

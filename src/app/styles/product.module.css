@@ -104,6 +104,8 @@
   
   .productDetails .btn{
     text-align: center;
+    font-size: 1.1rem;
+    padding: 8px 9px;
   }
 }
 
