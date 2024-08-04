@@ -162,11 +162,12 @@ const Checkout = () => {
         <div className={styles.cartCont}>
           {state.cart.map((item) => {
             return (
-              <div>
+              <div key={item.id}>
                 <div className={styles.productDetails}>
                   <Image
                     src={item.image}
                     width={80}
+                    alt={item.title}
                     height={80}
                     style={{ marginTop: "20px" }}
                   />
