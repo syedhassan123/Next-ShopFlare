@@ -104,16 +104,16 @@
 
 @media screen and (max-width:370px) {
   .heroSec img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 
   .heroContent p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
-@media screen and (max-width:270px) {
+@media screen and (max-width:340px) {
  
   .heroContent p{
     display: none;

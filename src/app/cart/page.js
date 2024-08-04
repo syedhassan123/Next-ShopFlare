@@ -57,9 +57,9 @@ const CartPage = () => {
                   </td>
                   <td>${item.price}</td>
                   <td >
-                    <button onClick={() => updateItemQuantity(item.id, item.quantity + 1)} style={{padding:"11px 15px",border:"2px solid skyblue"}} className={styles.qbtn}>+</button>
+                    <button onClick={() => updateItemQuantity(item.id, item.quantity + 1)} style={{padding:"11px 12px",border:"2px solid skyblue"}} className={styles.qbtn}>+</button>
                     <span style={{padding:"8px",fontSize:"16px"}}>{item.quantity}</span>
-                    <button onClick={() => updateItemQuantity(item.id, item.quantity - 1)}  style={{padding:"11px 15px",border:"2px solid skyblue"} } className={styles.qbtn}>-</button>
+                    <button onClick={() => updateItemQuantity(item.id, item.quantity - 1)}  style={{padding:"11px 12px",border:"2px solid skyblue"} } className={styles.qbtn}>-</button>
                   </td>
                   <td>${calculateSubtotal(item.price, item.quantity)}</td>
                   <td>
