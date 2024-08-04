@@ -1,0 +1,25 @@
+.categoryPageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .productGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #777;
+  }
+  

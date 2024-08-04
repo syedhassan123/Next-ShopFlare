@@ -1,0 +1,49 @@
+.featuresContainer {
+    background-color: #f7f9fc; /* Light background color for contrast */
+    padding: 70px 0; /* Add some padding to top and bottom */
+    text-align: center;
+    margin-top: 3%;
+
+  }
+  
+  .featuresWrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .featureItem {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px;
+    width: 250px; /* Fixed width for consistent layout */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .featureItem:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+  }
+  
+  .icon {
+    font-size: 48px;
+    color: #0070da; /* Brand color for icons */
+    margin-bottom: 15px;
+  }
+  
+  .featuresContainer h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .featuresContainer p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+  }
+  

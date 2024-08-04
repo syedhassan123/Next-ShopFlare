@@ -1,0 +1,115 @@
+/* styles/trendingCard.module.css */
+.trendingCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .trendingIcon {
+    font-size: 4rem;
+    color: #2c3e50;
+    margin-right: 12px;
+    margin-top: -30px;
+    margin-left: 17px;
+}
+  
+
+  .trendingNowContainer{
+    height: 60vh;
+    margin-top: 7%;
+
+  }
+  .trendingCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .trendingCardImage {
+    /* width: 100%; */
+    /* max-width: 200px; */
+    /* height: auto; */
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .sectionTitle {
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .trendingCardTitle {
+
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center !important;
+  }
+  
+  .trendingCardPrice {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .trendingCardButton {
+    background-color: #1d72b8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .trendingCardButton a{
+    /* background-color: #1d72b8; */
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .trendingCardButton:hover {
+    background-color: #155a8a;
+    color: white;
+  } 
+
+  .trendingCardDescription {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+
+  @media screen and (max-width:637px) {
+
+   .trendingCard img{
+    width: 100px;
+    height: 100px;
+   }
+
+    .trendingCardTitle{
+      display: none;
+    }
+    
+    .trendingCardButton{
+      font-size: 1.2rem;
+      padding: 5px;
+    }
+  }
