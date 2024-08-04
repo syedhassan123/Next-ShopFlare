@@ -298,8 +298,8 @@
   }
 
   .qbtn {
-    font-size: 12px;
-    padding: 3px 4px;
+    font-size: 10px;
+    padding: 5px 7px !important;
   }
 }
 
